@@ -76,3 +76,9 @@
 .atributos li + li {
   border-top: 2px solid var(--p1);
 }
+
+@media (max-width: 600px) {
+  .conteudo {
+    grid-template-columns: auto;
+  }
+}

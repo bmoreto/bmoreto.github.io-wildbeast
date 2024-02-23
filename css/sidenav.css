@@ -19,3 +19,37 @@
 .sidenav-lista a:hover {
   background-color: var(--p2);
 }
+
+@keyframes seta {
+  from {
+    right: 30px;
+  }
+  to {
+    right: 20px;
+  }
+}
+
+@media (max-width: 760px) {
+  .sidenav {
+    padding: 0 30px;
+    overflow-x: auto;
+    position: relative;
+  }
+  .sidenav::after {
+    content: "→";
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    color: rgba(0, 0, 0, 0.3);
+    animation: seta 0.5s ease-in 0s infinite alternate;
+  }
+  .sidenav-lista {
+    display: flex;
+  }
+  .sidenav-lista li {
+    flex: 1 0 60px;
+  }
+  .sidenav-lista a {
+    margin: 30px 30px 30px 0;
+  }
+}
