@@ -1,0 +1,78 @@
+.conteudo {
+  grid-area: conteudo;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.imagem-1 {
+  grid-row: span 2;
+  align-self: end;
+}
+
+.informacoes p + p {
+  margin-top: 30px;
+}
+
+.caracteristicas {
+  display: flex;
+  align-items: flex-start;
+}
+
+.caracteristicas > div {
+  width: 80px;
+  text-align: center;
+  background: var(--gradiente);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  position: relative;
+}
+
+.caracteristicas span {
+  display: block;
+}
+
+.caracteristicas > div:first-child {
+  margin-right: 30px;
+}
+
+.numero {
+  margin: 10px auto;
+}
+
+.rotulo {
+  background: var(--w);
+  border-radius: 0 0 5px 5px;
+  padding: 5px 0;
+  position: relative;
+  top: 2px;
+}
+
+.destaque {
+  max-width: 16rem;
+}
+
+.citacao,
+.atributos {
+  align-self: start;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  background: var(--gradiente);
+}
+
+.citacao p {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.atributos li {
+  padding: 15px;
+}
+
+.atributos li + li {
+  border-top: 2px solid var(--p1);
+}

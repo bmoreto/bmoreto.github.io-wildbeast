@@ -1,0 +1,59 @@
+.font-m,
+.font-m a {
+  font-size: 1.125rem;
+  color: var(--w);
+}
+
+.titulo {
+  font-size: 3.75rem;
+  color: var(--p2);
+  line-height: 1;
+  font-weight: 700;
+}
+
+.subtitulo {
+  font-size: 0.875rem;
+  color: var(--p2);
+  line-height: 1;
+  font-style: italic;
+}
+
+.conteudo-texto {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  letter-spacing: -0.005rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.destaque {
+  font-size: 0.875rem;
+  color: var(--p2);
+}
+
+.numero {
+  color: var(--p2);
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.rotulo {
+  color: var(--p2);
+  line-height: 1;
+}
+
+.citacao {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+  color: var(--w);
+}
+
+.atributos {
+  color: var(--w);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.125rem;
+}
+
+.footer-texto {
+  color: var(--w);
+}

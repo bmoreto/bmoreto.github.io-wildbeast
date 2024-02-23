@@ -1,0 +1,33 @@
+.header {
+  grid-area: header;
+  background: var(--gradiente);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 30px;
+}
+
+.header-logo {
+  max-width: 200px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition: 0.1s;
+}
+
+.menu a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu li + li {
+  margin-left: 30px;
+}
